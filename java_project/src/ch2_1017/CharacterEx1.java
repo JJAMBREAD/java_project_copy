@@ -12,7 +12,6 @@ public class CharacterEx1 {
 		System.out.println("=====================");
 		char ch2 = 66;
 		System.out.println(ch2);
-		System.out.println(ch2);
 		System.out.println("=====================");
 		int i1 = 67;
 		System.out.println(i1);
@@ -24,6 +23,44 @@ public class CharacterEx1 {
 		System.out.println(ch3);
 		System.out.println(ch4);
 
+		int a = 65;
+		int b = -66;
+		
+		char a2 = 65;
+//		char b2 = -66; 문자형 변수에 음수를 넣으면 오류가 발생하므로 주석 처리
+		System.out.println((char)a);
+		System.out.println((char)b);
+		System.out.println(a2);
+		
+		double dnum = 3.14;
+		float fnum = 3.14F;
+		
+		System.out.println(dnum);
+		System.out.println(fnum);
+		
+		boolean isMarried = true;
+		System.out.println(isMarried);
+		
+		var i = 10;
+		var j = 10.0;
+		var str = "hello";
+		
+		System.out.println(i);
+		System.out.println(j);
+		System.out.println(str);
+		
+		str = "test";
+//		str=3; str 변수는 String형으로 먼저 사용되었기 때문에 정수 값을 넣을 수 없음
+		
+		final int MAX_NUM = 100;
+		final int MIN_NUM;
+		
+		MIN_NUM = 0;
+		
+		System.out.println(MAX_NUM);
+		System.out.println(MIN_NUM);
+		
+//		MAX_NUM = 10000; 오류 발생. 상수는 값을 변경할 수 없음
 	}
 
 }
