@@ -2,7 +2,7 @@ package ch04_test_1018;
 
 public class IfExample2 {
 	public static void main(String[] args) {
-		int age = 20;
+		int age = 9;
 		int charge;
 		
 		if(age < 8){
