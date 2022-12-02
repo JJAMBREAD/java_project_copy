@@ -1,6 +1,7 @@
 package ch04_test_1018;
 
 public class SwitchCase {
+
 	public static void main(String[] args) {
 
 		int ranking = 1;
@@ -9,11 +10,13 @@ public class SwitchCase {
 		switch(ranking){
 		
 			case 1: medalColor = 'G';
-					break;
+				break;
+				
 			case 2: medalColor = 'S';
-					break;
+				break;
+			
 			case 3: medalColor = 'B';
-					break;
+				break;
 			default:
 				medalColor = 'A';
 		}
