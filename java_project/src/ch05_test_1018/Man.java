@@ -1,6 +1,8 @@
 package ch05_test_1018;
 
 public class Man {
-	Human Man = new Human();
-	
+	String name;
+	int age;
+	boolean isMarried;
+	int numOfChildren;
 }
