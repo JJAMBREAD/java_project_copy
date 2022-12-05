@@ -15,6 +15,7 @@ public class TakeTrans {
 		Student jmjStudent = new Student("주민정", 20000);
 		KakaoTaxi kakaoTaxi3 = new KakaoTaxi(3);
 		jmjStudent.takeTaxi(kakaoTaxi3);
+		jmjStudent.takeTaxi(new KakaoTaxi(4));
 		System.out.println("================");
 		System.out.println("주민정 학생의 택시 탑승 후 정보");
 		jmjStudent.showInfo();
