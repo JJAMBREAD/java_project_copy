@@ -22,6 +22,7 @@ public class Student {
 		  this.money -= 1500;
 	 }
 	 
+	 //택시 타기 추가
 	 public void takeTaxi(KakaoTaxi kakaoTaxi) {
 		  kakaoTaxi.take(5000);
 		  this.money -= 5000;

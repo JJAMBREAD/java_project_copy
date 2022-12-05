@@ -38,7 +38,7 @@ public class TakeTrans {
 		bus2.showInfo();
 		System.out.println("1호선 지하철의 정보");
 		subway1.showInfo();
-		
+		System.out.println("=================");
 		Student lsyStudent2 = new Student("이상용2", 20000);
 		lsyStudent2.takeSubway(subway1);
 		lsyStudent2.takeBus(bus2);
