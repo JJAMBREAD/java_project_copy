@@ -26,7 +26,7 @@ class BirthDay{
 	}
 
 	public void showInfo2() {
-		System.out.println(year + "년"+month+"월"+day+"일" +" 이름 : " + getName() );
+		System.out.println("생년월일: " + year + "년 "+month+"월 "+day+"일 ," +"이름: " + getName() );
 	}
 
 	
