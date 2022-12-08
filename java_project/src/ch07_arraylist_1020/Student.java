@@ -55,8 +55,8 @@ public class Student {
 		for(LunchMenu LunchMenu : LunchMenu) {
 	
 	
-	System.out.println("학생 " + studentName + "의 " +" 점심메뉴 : " + 
-			LunchMenu.getMenuname()+ " 가격 : "+LunchMenu.getPrice()+ "원 간단 위치 : "+ LunchMenu.getDescription() + "입니다.");
+	System.out.println("학생 " + studentName + "의" +" 점심메뉴는 " + 
+			LunchMenu.getMenuname()+"이고"+ " 가격은 "+LunchMenu.getPrice()+ "원이며 "+ LunchMenu.getDescription() + "입니다.");
 		}
 	}
 }

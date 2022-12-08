@@ -1,5 +1,7 @@
 package ch06_staticex_1019;
 
+import ch05_test2_1202.Person;
+
 public class Student {
 	
 	//static 이라는 키워드를 사용해서, 전역 변수로 사용, 정적 변수, 다르게 표현 리소스라고 합니다.

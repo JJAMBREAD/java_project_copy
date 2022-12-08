@@ -19,7 +19,7 @@ public class StudentTest {
 		// LunchMenu : ArrayList 만들어서 Student 클래스에 추가해서,
 		// 점심 메뉴 추가하는 기능, 출력하는 기능등을 만들어서, 출력해보기.
 		// 참고는 Subject를 참고해서 만들어보기.
-		jmj.addLunchMenu("스테이크",8900,"자라 건물 5층인데 만화카페 옆 로봇이 배달해줌.");
+		jmj.addLunchMenu("스테이크",8900,"자라 건물 5층인데 만화카페 옆 로봇이 배달해줌. 먹을만함.");
 		jmj.showStudentInfo();
 		
 		
