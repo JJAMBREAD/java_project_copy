@@ -4,7 +4,6 @@ public class AdvancedLevel extends PlayerLevel{
 	@Override
 	public void run() {
 		System.out.println("빨리 달립니다.");
-		
 	}
 
 	@Override
