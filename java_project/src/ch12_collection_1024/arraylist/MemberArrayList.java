@@ -6,7 +6,9 @@ import java.util.Iterator;
 import ch12_collection_1024.Member;    
 
 public class MemberArrayList {
-
+	
+	// private int memId;
+	// 포함관계로 다른 클래스 형의 객체를 가지고 왔음.
 	private ArrayList<Member> arrayList;  // ArrayList 선언 
 
 	public MemberArrayList(){
@@ -27,7 +29,10 @@ public class MemberArrayList {
 				return true;                   // true 반환
 			}
 		}
-		
+		// Iterator 인터페이스인데, 반복 실행을 위해서 사용을 합니다.
+		// 컬렉션, 여러개의 데이터를 담는 그릇인데,
+		// 컬렉션에 있는 데이터를 Iterator (반복자)에 담아서 반복 작업을 합니다.
+		// 마치 반복문일아 작업이 똑같다.
 		Iterator<Member> ir = arrayList.iterator();
 		while(ir.hasNext()) {
 			Member member = ir.next();

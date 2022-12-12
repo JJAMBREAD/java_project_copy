@@ -12,4 +12,5 @@ public class GenericPrinterTest2 {
 		plasticPrinter.setMaterial(new Plastic());
 		plasticPrinter.printing();
 	}
+	
 }

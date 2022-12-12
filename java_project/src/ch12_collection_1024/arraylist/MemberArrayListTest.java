@@ -12,6 +12,7 @@ public class MemberArrayListTest {
 
 		MemberArrayList memberArrayList = new MemberArrayList();
 		//해당 Member 타입으로 생성자 초기화하고, 
+		Member memberJu = new Member(1000, "주민정");
 		Member memberLee = new Member(1001, "이지원");
 		Member memberSon = new Member(1002, "손민국");
 		Member memberPark = new Member(1003, "박서훤");
@@ -19,6 +20,7 @@ public class MemberArrayListTest {
 		Member lsy = new Member(1005, "이상용");
 		
 		// 해당 Member 를 memberArrayList 에 담고. 
+		memberArrayList.addMember(memberJu);
 		memberArrayList.addMember(memberLee);
 		memberArrayList.addMember(memberSon);
 		memberArrayList.addMember(memberPark);
@@ -27,7 +29,7 @@ public class MemberArrayListTest {
 		
 		// memberArrayList 메서드들 확인. 
 		memberArrayList.showAllMember();
-		
+		memberArrayList.removeMember(memberJu.getMemberId());
 		memberArrayList.removeMember(lsy.getMemberId());
 		memberArrayList.showAllMember();
 	}
